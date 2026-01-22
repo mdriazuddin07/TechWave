@@ -42,7 +42,7 @@ nav .menu a {
 }
 
 nav .btn {
-   
+
     width: 135px;
     height: 44px;
     border: none;
@@ -54,3 +54,90 @@ nav .btn {
     border-radius: 10000px;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)));
 }
+
+.hero {
+    background: url(../assets/hero-bg.png)center/cover no-repeat;
+    min-height: 760px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+    border: 8px solid #2A186C;
+    border-radius: 100%;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.Tech {
+    text-align: center;
+    gap: 8px;
+}
+
+.Tech h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.Tech p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.btn1{
+    width: 201px;
+    height: 44px;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)));
+}
+
+.btn2{
+    width: 147px;
+    height: 44px;
+    border: 1px solid #00FF88;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #00FF88;
+    border-radius: 10000px;
+    background: transparent;
+    
+}
+.btn-containar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+
