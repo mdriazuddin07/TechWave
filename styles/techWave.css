@@ -71,11 +71,11 @@ nav .btn {
     margin-bottom: 40px;
     border: 8px solid #2A186C;
     border-radius: 100%;
-    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)));
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -98,7 +98,7 @@ nav .btn {
     line-height: 19px;
 }
 
-.btn1{
+.btn1 {
     width: 201px;
     height: 44px;
     border: none;
@@ -115,7 +115,7 @@ nav .btn {
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)));
 }
 
-.btn2{
+.btn2 {
     width: 147px;
     height: 44px;
     border: 1px solid #00FF88;
@@ -130,9 +130,10 @@ nav .btn {
     color: #00FF88;
     border-radius: 10000px;
     background: transparent;
-    
+
 }
-.btn-containar{
+
+.btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,4 +141,6 @@ nav .btn {
     margin-top: 24px;
 }
 
-
+.img {
+    width: 180px;
+}
