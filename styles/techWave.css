@@ -171,11 +171,17 @@ nav .btn {
     line-height: 30px;
     margin-bottom: 79px;
 }
-.review{
+.ditals{
+    border-bottom: 1px solid white;
+    margin-bottom: 80px;
+    max-width: 1600px;
+}
+.review {
     display: flex;
-     
-height: 94px;
-gap: 80px;
+    height: 94px;
+    gap: 80px;
+    
+   
 }
 
 .detail h1 {
