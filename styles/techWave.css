@@ -146,12 +146,11 @@ nav .btn {
 }
 
 .about {
-
-    height: 646px;
+    min-height: 646px; 
     background: #1A0B2E;
     text-align: center;
     color: white;
-    padding: 50px 200px 120px 200px;
+    padding: 80px 10% 120px 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,3 +189,193 @@ nav .btn {
     line-height: 58px;
     color: #00FF88;
 }
+/* Section */
+.techwave {
+  padding: 120px 300px;
+  margin: auto;
+  background: #120021;
+  color: #fff;
+}
+
+/* Title */
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  
+}
+
+/* Cards Grid */
+.cards {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* Card */
+.card {
+  background: linear-gradient(145deg, #1e0035, #2a004a);
+  padding: 25px;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card1 {
+    width: 380px;
+    height: 480px;
+  background: linear-gradient(145deg, #1e0035, #2a004a);
+  padding: 40px;
+  grid-row: span 2;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card2 {
+  background: linear-gradient(145deg, #1e0035, #2a004a);
+  padding: 25px;
+  grid-column: span 2;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card3 {
+  background: linear-gradient(145deg, #1e0035, #2a004a);
+  padding: 25px;
+  grid-column: span 2;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card4 {
+  background: linear-gradient(145deg, #1e0035, #2a004a);
+  padding: 25px;
+  grid-column: span 2;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(124, 58, 237, 0.4);
+}
+
+/* Icon */
+.icon {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #d1cbe8;
+  line-height: 24px;
+}
+
+
+/* Medium Device */
+@media (max-width: 992px) {
+
+    .about {
+        padding: 70px 8%;
+    }
+
+    .about h1 {
+        font-size: 38px;
+    }
+
+    .about p {
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+
+    .review {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        height: auto;
+    }
+
+    .detail {
+        width: 40%;
+    }
+
+    .detail h1 {
+        font-size: 40px;
+    }
+}
+
+/* Small Device */
+@media (max-width: 576px) {
+  .menu{
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:#0d0d0d;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+        padding:20px 0;
+        display:none;
+    }
+
+    .menu.active{
+        display:flex;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    nav div{
+        display:none; /* hide subscribe btn on mobile */
+    }
+    .about {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .about h1 {
+        font-size: 32px;
+    }
+
+    .about p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    .ditals {
+        margin-bottom: 40px;
+    }
+
+    .review {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        height: auto;
+        /* flex-direction: column;
+        gap: 30px;
+        height: auto; */
+    }
+
+    .detail {
+        width: 100%;
+    }
+
+    .detail h1 {
+        font-size: 32px;
+    }
+     .section-title {
+    font-size: 1.6rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
